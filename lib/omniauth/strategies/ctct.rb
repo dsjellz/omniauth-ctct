@@ -4,7 +4,7 @@ require 'multi_xml'
 
 module OmniAuth
   module Strategies
-    class ConstantContact2 < OmniAuth::Strategies::OAuth2
+    class Ctct < OmniAuth::Strategies::OAuth2
       
       DEFAULT_RESPONSE_TYPE = 'code'
       DEFAULT_GRANT = 'authorization_code'
@@ -58,4 +58,4 @@ module OmniAuth
   end
 end
 
-OmniAuth.config.add_camelization 'constantcontact', 'ConstantContact2'
+OmniAuth.config.add_camelization 'constantcontact', 'Ctct'

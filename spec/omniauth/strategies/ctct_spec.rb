@@ -1,9 +1,9 @@
 require 'spec_helper'
-require 'omniauth-constantcontact2'
+require 'omniauth-ctct'
 
-describe OmniAuth::Strategies::ConstantContact2 do
+describe OmniAuth::Strategies::Ctct do
   subject do
-    OmniAuth::Strategies::ConstantContact2.new(nil, @options || {})
+    OmniAuth::Strategies::Ctct.new(nil, @options || {})
   end
 
   it_should_behave_like 'an oauth2 strategy'

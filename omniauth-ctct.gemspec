@@ -1,14 +1,14 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/omniauth-constantcontact2/version', __FILE__)
+require File.expand_path('../lib/omniauth-ctct/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = "omniauth-constantcontact2"
-  gem.version       = Omniauth::ConstantContact2::VERSION
-  gem.authors       = ["Aditya Sanghi"]
-  gem.email         = ["asanghi@me.com"]
+  gem.name          = "omniauth-ctct"
+  gem.version       = Omniauth::Ctct::VERSION
+  gem.authors       = ["Aditya Sanghi", "David Jellesma"]
+  gem.email         = ["asanghi@me.com", "djellesma@constantcontact.com"]
   gem.description   = %q{OmniAuth Strategy for Constant Contact using OAuth2}
   gem.summary       = %q{OmniAuth Strategy for Constant Contact using OAuth2}
-  gem.homepage      = "https://github.com/asanghi/omniauth-constantcontact2"
+  gem.homepage      = "https://github.com/dsjellz/omniauth-ctct"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
